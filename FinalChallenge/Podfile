@@ -1,0 +1,35 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'FinalChallenge' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/AdMob'
+  pod 'Firebase/Database'
+  pod 'Firebase/Crash'
+  pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Socket.IO-Client-Swift', '~> 8.x'
+  pod 'Cosmos', '~> 7.0'
+  pod 'JSQMessagesViewController'
+  
+
+  # Pods for FinalChallenge
+
+  target 'FinalChallengeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FinalChallengeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
